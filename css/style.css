@@ -18845,7 +18845,7 @@ Sidebar
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 25rem;
+    height: 30rem;
   }
   
   .card-image {
@@ -18858,11 +18858,10 @@ Sidebar
   .card-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: auto;
   }
   
   .card-content {
-    padding: 20px;
   }
   
   .card-title {
@@ -18905,3 +18904,40 @@ Sidebar
     color: #777777;
     line-height: 1.6;
   }
+
+  .button-63 {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 10px 20px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 10px; /* Reduced from 24px */
+    justify-content: center;
+    max-width: 100%;
+    min-width: 80px; /* Reduced from 100px */
+    padding: 6px 3px; /* Reduced padding */
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: auto;
+  }
+  
+  .button-63:active,
+  .button-63:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-63 {
+      font-size: 16px; /* Reduced font size */
+      min-width: 120px; /* Reduced min-width */
+    }
+  }
+  

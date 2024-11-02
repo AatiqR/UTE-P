@@ -20,7 +20,7 @@
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 28rem;
+    height: 32rem;
   }
   
   .card-image {
@@ -162,320 +162,39 @@ p {
   margin-bottom: 15px;
 }
 
-/* Radiator
- /* */
 
- .radiator-section {
-  /* Section container styles */
-  margin: 20px auto;
-  padding: 20px;
-  max-width: 1200px;
-}
-
-.radiator-heading {
-  /* Heading styles */
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
-.radiator-container {
-  /* Container for image wrappers */
-  display: flex;
-  justify-content: space-around;
-}
-
-.radiator-image-wrapper {
-  /* Wrapper for each image */
-  position: relative;
-  overflow: hidden;
-}
-
-.radiator-image {
-  /* Image styles */
-  width: 100%;
-  height: auto;
-  transition: transform 0.3s ease-in-out;
-}
-
-.radiator-image-wrapper:hover .radiator-image {
-  /* Hover effect */
-  transform: scale(1.1);
-}
-
-.radiator-image-wrapper::before {
-  /* 3D border effect */
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 2px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-}
-
-.radiator-image-wrapper:hover::before {
-  /* Hover effect for border */
-  transform: scale(1.05);
-}
-.radiator-caption {
-  /* ... other styles ... */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  text-align: center;
-}
-
-.radiator-image-wrapper:hover .radiator-caption {
-  opacity: 1;
-}
-@media (max-width: 768px) {
-  /* Responsive styles for smaller screens */
-  .radiator-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .radiator-image-wrapper {
-    margin-bottom: 20px;
-  }
-}
-
-/* Towel warmer */.product-display {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
-  gap: 30px;
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 30px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.product-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.product-info h1 {
-  font-size: 24px; /* Adjusted for smaller screens */
-  font-family: 'Arial', sans-serif;
-  color: #222;
-  margin-bottom: 15px;
-}
-
-.product-info p {
-  font-size: 14px; /* Adjusted for smaller screens */
-  line-height: 1.6;
-  color: #555;
-}
-
-.product-photo {
-  display: block;
-}
-
-.flip-card {
-  background-color: transparent;
-  width: 100%; /* Make width responsive */
-  max-width: 300px; /* Limit max width for larger displays */
-  height: 300px;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 10px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-}
-
-.flip-card-front {
-  background-color: #fff;
-}
-
-.flip-card-back {
-  background-color: #333;
-  color: white;
-  transform: rotateY(180deg);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+/* CSS */.button-63 {
   align-items: center;
-}
-
-.flip-card-back h2 {
-  margin: 0;
-}
-
-.flip-card-back p {
-  margin: 5px 0 0;
-}
-
-/* Responsive design adjustments */
-@media (max-width: 768px) {
-  .product-info h1 {
-    font-size: 20px; /* Smaller header for tablets */
-  }
-
-  .product-info p {
-    font-size: 13px; /* Smaller text for tablets */
-  }
-
-  .flip-card {
-    max-width: 100%; /* Full width on smaller devices */
-  }
-}
-
-@media (max-width: 480px) {
-  .product-info h1 {
-    font-size: 18px; /* Smaller header for mobile */
-  }
-
-  .product-info p {
-    font-size: 12px; /* Smaller text for mobile */
-  }
-
-  .product-display {
-    padding: 15px; /* Reduced padding for mobile */
-  }
-}
-
-/* Combi Boiler */.combi-boiler-section {
-  width: 95%;
-  padding: 10px;
-  background-color: #f7f7f7;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(144deg, #ffa500, #00ffff , 50%, #00ffff );
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 10px 20px -5px;
+  box-sizing: border-box;
+  color: black;
+  display: flex;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 10px; /* Reduced from 24px */
+  justify-content: center;
+  max-width: 100%;
+  min-width: 80px; /* Reduced from 100px */
+  padding: 6px 3px; /* Reduced padding */
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
   margin: auto;
 }
 
-.combi-boiler-section h1 {
-  font-size: 32px; /* Adjusted for better mobile readability */
-  margin-bottom: 20px;
-  text-align: center;
+.button-63:active,
+.button-63:hover {
+  outline: 0;
 }
 
-.combi-boiler-section ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.combi-boiler-section li {
-  margin-bottom: 10px;
-}
-
-.image-container {
-  display: grid; /* Changed to grid for better layout control */
-  grid-template-columns: repeat(auto-fill, minmax(260px, 0.5fr)); /* Responsive grid */
-  gap: 5%; /* Adjusted gap for better spacing */
-}
-
-.image-container img {
-  width: 100%; /* Full width for images to maintain responsiveness */
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
-  height: auto; /* Maintain aspect ratio */
-}
-
-/* Responsive design adjustments */
-@media (max-width: 768px) {
-  .combi-boiler-section h1 {
-    font-size: 28px; /* Smaller header for tablets */
-  }
-
-  .combi-boiler-section .image-container {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust for smaller screens */
-  }
-}
-
-@media (max-width: 480px) {
-  .combi-boiler-section h1 {
-    font-size: 4px; /* Smaller header for mobile */
-  }
-
-  .combi-boiler-section .image-container {
-    grid-template-columns: 1fr; /* Single column layout on mobile */
-  }
-}
-
-
-/* table */
-
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 40px;
-  background-color: white;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  overflow-x: auto; /* Allows horizontal scrolling on small screens */
-}
-
-th, td {
-  padding: 12px;
-  text-align: center;
-  border: 1px solid #ddd;
-}
-
-th {
-  background-color: #4CAF50;
-  color: white;
-}
-
-tr:hover {
-  background-color: #f1f1f1;
-}
-
-h2 {
-  text-align: center;
-  color: #333;
-}
-
-/* Responsive Styles */
-@media (max-width: 600px) {
-  th, td {
-      font-size: 12px; /* Adjust font size for smaller screens */
-      padding: 8px;    /* Adjust padding for smaller screens */
-  }
-
-  table {
-      display: block; /* Enables horizontal scrolling */
-      overflow-x: auto; /* Allows horizontal scrolling */
-      white-space: nowrap; /* Prevents wrapping of table content */
-  }
-
-  th, td {
-      min-width: 100px; /* Minimum width for cells */
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 16px; /* Reduced font size */
+    min-width: 120px; /* Reduced min-width */
   }
 }
