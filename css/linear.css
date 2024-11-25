@@ -213,7 +213,7 @@
     content: "\e82f";
 }
 
-.lnr-icon-phone-handset:before {
+.bi bi-telephone:before {
     content: "\e830";
 }
 
@@ -421,7 +421,7 @@
     content: "\e863";
 }
 
-.lnr-icon-clock:before {
+.bi bi-clock:before {
     content: "\e864";
 }
 
@@ -673,7 +673,7 @@
     content: "\e02a";
 }
 
-.lnr-icon-bars:before {
+.bi bi-list:before {
     content: "\e02b";
 }
 
@@ -689,7 +689,7 @@
     content: "\e035";
 }
 
-.lnr-icon-envelope1:before {
+.bi bi-envelope:before {
     content: "\e037";
 }
 

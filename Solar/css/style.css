@@ -42,299 +42,23 @@
   font-weight: normal;
   font-style: normal;
 }
-
-body {
-  font-size: 18px;
-  color: #53545a;
-}
-
-.ag-maecenas_title {
-  padding: 130px 0;
-  background-color:#00008b;
-
-  text-align: center;
-  font-family: Heavitas, sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  color: #FFF;
-
-  position: relative;
-}
-.ag-maecenas_title:before {
-  content: "";
-  height: 125px;
-  width: 100%;
-  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/animation-wave-shadow/images/wave.svg) repeat-x scroll 0 0;
-  -webkit-background-size: 1600px 198px;
-  -moz-background-size: 1600px 198px;
-  -o-background-size: 1600px 198px;
-  background-size: 1600px 198px;
-
-  position: absolute;
-  left: 0;
-  bottom: 0;
-
-  -webkit-filter: drop-shadow(5px -10px 3px rgba(0, 0, 0, .2));
-  filter: drop-shadow(5px -10px 3px rgba(0, 0, 0, .2));
-
-  -webkit-animation: an-wave 20s linear infinite;
-  -moz-animation: an-wave 20s linear infinite;
-  -o-animation: an-wave 20s linear infinite;
-  animation: an-wave 20s linear infinite;
-}
-
-.ag-maecenas_box {
-  padding: 70px 0;
-  background-color: #FFF;
-
-  position: relative;
-}
-.ag-maecenas_item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -moz-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-
-  padding: 0 0 120px;
-}
-.ag-maecenas_descr {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 60%;
-  -moz-box-flex: 1;
-  -ms-flex: 1 1 60%;
-  flex: 1 1 60%;
-
-  padding: 0 40px;
-
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.ag-maecenas_title-item {
-  padding: 0 0 15px;
-
-  font-family: Heavitas, sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-}
-.ag-maecenas_tagline-item {
-  padding: 0 0 15px;
-
-  font-family: Heavitas, sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-}
-.ag-requirement_item {
-  padding: 10px 10px 10px 20px;
-
-  position: relative;
-}
-.ag-requirement_item:before {
-  content: "";
-  height: 6px;
-  width: 6px;
-  background-color: #00a2ff;
-
-  position: absolute;
-  top: 50%;
-  left: 0;
-
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-.ag-maecenas_img-box {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 40%;
-  -moz-box-flex: 1;
-  -ms-flex: 1 1 40%;
-  flex: 1 1 40%;
-
-  height: 300px;
-  padding: 0 15px;
-
-  text-align: center;
-}
-.ag-maecenas_item:nth-child(odd) {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-  -webkit-flex-direction: row-reverse;
-  -moz-box-orient: horizontal;
-  -moz-box-direction: reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-}
-
-.svg-img-block {
-  display: none;
-}
-
-@-webkit-keyframes an-wave {
-  100% {
-    background-position-x: -1600px;
-  }
-}
-@-moz-keyframes an-wave {
-  100% {
-    background-position-x: -1600px;
-  }
-}
-@-o-keyframes an-wave {
-  100% {
-    background-position-x: -1600px;
-  }
-}
-@keyframes an-wave {
-  100% {
-    background-position-x: -1600px;
-  }
-}
-
-@media screen and (max-width: 979px) {
-  .ag-maecenas_title {
-    font-size: 90px;
-  }
-  .ag-maecenas_descr {
-    padding: 0;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .ag-format-container {
-    width: 96%;
-  }
-
-  .ag-maecenas_item {
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  .ag-maecenas_item:nth-child(odd) {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -moz-box-orient: horizontal;
-    -moz-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-  .ag-maecenas_descr {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 100%;
-    -moz-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    -webkit-box-ordinal-group: 3;
-    -moz-box-ordinal-group: 3;
-    -ms-flex-order: 2;
-    order: 2;
-  }
-  .ag-maecenas_img-box {
-    -webkit-flex: 0 0 100%;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    -webkit-box-flex: 0;
-    -moz-box-flex: 0;
-    -webkit-box-ordinal-group: 2;
-    -moz-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
-
-    height: 200px;
-    width: 100%;
-    min-width: 150px;
-    padding: 0;
-  }
-}
-
-@media only screen and (max-width: 639px) {
-  .ag-maecenas_title {
-    font-size: 60px;
-  }
-}
-
-@media only screen and (max-width: 479px) {
-  .ag-maecenas_title {
-    font-size: 40px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
-  .ag-format-container {
-    width: 750px;
-  }
-
-}
-
-@media (min-width: 980px) and (max-width: 1161px) {
-  .ag-format-container {
-    width: 960px;
-  }
-
-}
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
-
-/* Container Styling */
 .solar-section {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
+  align-items: flex-start; /* Align items at the start */
+  justify-content: space-between; /* Space between text and images */
+  padding: 1rem;
   gap: 1rem;
-  max-width: 1200px;
+  max-width: 98%;
   margin: 0 auto;
   color: #333;
-  text-align: center;
-}
-
-/* Image Card Styling */
-.solar-card {
-  position: relative;
-  flex: 1 1 30%;
-  max-width: 30%;
-  overflow: hidden;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
-
-.solar-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
-
-.solar-card:hover img {
-  transform: scale(1.1);
+  text-align: left; /* Align text to the left */
 }
 
 /* Text Content */
 .solar-text {
-  width: 100%;
-  margin-top: 1rem;
+  flex: 1 1 60%; /* Allow text to take up more space */
+  margin-right: 1rem; /* Add some space between text and images */
   font-size: 1rem;
   color: #444;
   padding: 0 1rem;
@@ -345,17 +69,54 @@ body {
   font-weight: bold;
   margin-bottom: 1rem;
   color: #007ACC;
+  text-align: center;
+}
+.solar-text {
+  font-size: 1.3rem;
+
+}
+
+
+/* Image Container */
+.solar-images {
+  display: flex;
+  flex-direction: column; /* Stack images vertically */
+  flex: 1 1 30%; /* Allow images to take a smaller space */
+}
+
+/* Image Card Styling */
+.solar-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  margin-bottom: 1rem; /* Space between image cards */
+  flex: 1 1 calc(33.333% - 1rem); /* Responsive width */
+}
+
+.solar-card img {
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.solar-card:hover img {
+  transform: scale(1.1);
 }
 
 /* Large Image Styling */
 .solar-large-image {
-  width: 100%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if necessary */
+  width: 58%;
   max-width: 100%;
-  margin-top: 1.5rem;
+  margin: 1.5rem auto; /* Center the container itself */
 }
 
 .solar-large-image img {
-  width: 100%;
+  width: 100%; /* Use full width */
   height: auto;
   border-radius: 8px;
 }
@@ -363,10 +124,10 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
   .solar-card {
-    max-width: 45%;
+    flex: 1 1 calc(50% - 1rem); /* Two cards per row */
   }
   .solar-title {
-    font-size: 1.3rem;
+    font-size: 2.5rem; /* Adjusted for smaller screens */
   }
   .solar-text {
     font-size: 0.9rem;
@@ -374,13 +135,27 @@ body {
 }
 
 @media (max-width: 480px) {
+  .solar-section {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center ; /* Center items */
+  }
+  
   .solar-card {
-    max-width: 100%;
+    flex: 1 1 100%; /* Full width on small screens */
+    margin-right: 0; /* Remove right margin */
   }
+  
   .solar-title {
-    font-size: 1.2rem;
+    font-size: 1.5rem; /* Adjusted for smaller screens */
   }
+  
   .solar-text {
     font-size: 0.85rem;
+    padding: 0 0.5rem; /* Adjust padding for smaller screens */
+  }
+  .solar-card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 }

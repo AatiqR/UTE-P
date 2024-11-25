@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Cooltech - Air Conditioning & Heating HTML Template | Service Page</title>
+<title> Central Heating and Cooling-Up-Tech Engineering Heating & Cooling Services</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -67,13 +67,14 @@
                         <ul>
                             <li><a href="../CHS/Combi Boiler/Combi-Boiler.html">Combi Boiler</a></li>
                                 <li><a href="../CHS/Radiator/Radiator.html">RADIATOR</a></li>
-                                <li><a href="../CHS/Towel Warmer/Towel-Warmer.html">Towel Warmer</a></li>
+                               <li><a href="../CHS/Towel Warmer/Towel-Warmer.html">Towel Warmer</a></li>
+                              <li><a href="../CHS/Hot-Water-Tank/HWT.html">Hot Water Tank</a></li>
                             
                         
                         </ul>
                     </li>
 
-                    <li class="dropdown current"><a href="../CS/CS.html">Cooling System</a>
+                    <li class="dropdown current"><a href="./CS.html">Cooling System</a>
                         <ul>
                             <li><a href="./EPS/EPS.html">Evaporating cooling system</a></li>
                             <li><a href="./DESSERT COOLING/DessertCooling.html">Dessert Cooling</a></li>
@@ -98,7 +99,7 @@
 </a>
                 <a href="./Contact us/Contact-us.html" class="theme-btn btn-style-one"><span class="btn-title">get solution</span></a>
 
-                <div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
+                <div class="mobile-nav-toggler"><span class="icon bi bi-list"></span></div>
             </div>
         </div>
     </div>
@@ -112,7 +113,7 @@
 <nav class="menu-box">
 <div class="upper-box">
 <div class="nav-logo"><a href="index.html"><img src="./images/logo.png" alt title></a></div>
-<div class="close-btn"><i class="icon fa fa-times"></i></div>
+<div class="close-btn"><i class="icon bi bi-x"></i></div>
 </div>
 <ul class="navigation clearfix">
 
@@ -121,7 +122,7 @@
 <li>
 
 <div class="contact-info-box">
-<i class="icon lnr-icon-phone-handset"></i>
+<i class="icon bi bi-telephone"></i>
 <span class="title">Call Now</span>
 <a href="tel:+92 320-5660004"> +92 320-5660004</a>
 </div>
@@ -129,15 +130,15 @@
 <li>
 
 <div class="contact-info-box">
-<span class="icon lnr-icon-envelope1"></span>
+<span class="icon bi bi-envelope"></span>
 <span class="title">Send Email</span>
-<a href="/cdn-cgi/l/email-protection#b9d1dcd5c9f9dad6d4c9d8d7c097dad6d4"><span class="__cf_email__" data-cfemail="8fe7eae3ffcfece0e2ffeee1f6a1ece0e2">[email&#160;protected]</span></a>
+<a href="/cdn-cgi/l/email-protection#b9d1dcd5c9f9dad6d4c9d8d7c097dad6d4"><span class="__cf_email__" data-cfemail="8fe7eae3ffcfece0e2ffeee1f6a1ece0e2">info@ute.com.pk</span></a>
 </div>
 </li>
 <li>
 
 <div class="contact-info-box">
-<span class="icon lnr-icon-clock"></span>
+<span class="icon bi bi-clock"></span>
 <span class="title">Opening Hour</span>
 Mon - Sat 8:00 - 6:30, Sunday - CLOSED
 </div>
@@ -155,7 +156,7 @@ Mon - Sat 8:00 - 6:30, Sunday - CLOSED
 
 <div class="search-popup">
 <span class="search-back-drop"></span>
-<button class="close-search"><span class="fa fa-times"></span></button>
+<button class="close-search"><span class="bi bi-x"></span></button>
 <div class="search-inner">
 <form method="post" action="index.html">
 <div class="form-group">
@@ -188,7 +189,7 @@ Mon - Sat 8:00 - 6:30, Sunday - CLOSED
 </div>
 </nav>
 
-<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
+<div class="mobile-nav-toggler"><span class="icon bi bi-list"></span></div>
 </div>
 </div>
 </div>
@@ -196,12 +197,58 @@ Mon - Sat 8:00 - 6:30, Sunday - CLOSED
 </header>
 
 
-<section class="page-title" style="background-image: url(images/background/page-title.jpg);">
-    <div class="cooling-system-outer">
-        <h2 class="cooling-system-title" >Cooling System</h2>
-   
-    </div>
+<style>
     
+    .page-title {
+      width: 100%; /* Full width of the viewport */
+      height: 727px; /* Default height for larger screens */
+      background-image: url('/Assets/HOME/EPS.png'); /* Reference the image */
+      background-size: cover; /* Cover the entire container */
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Prevent image repetition */
+      display: flex; /* Enable content alignment if necessary */
+      align-items: center; /* Center content vertically */
+      justify-content: center; /* Center content horizontally */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+      .page-title {
+          height: auto; /* Let height adjust dynamically */
+          min-height: 300px; /* Set a minimum height for smaller screens */
+          background-size: cover; /* Keep the image covering the container */
+          background-position: center; /* Center the image */
+      }
+  }
+  
+  @media (max-width: 576px) {
+      .page-title {
+          min-height: 220px; /* Set a minimum height for small devices */
+          background-size: cover; /* Maintain coverage */
+          background-position: center; /* Center the image */
+          padding: 0; /* Remove extra padding to avoid empty space */
+      }
+  }
+  
+  @media (max-width: 360px) {
+      .page-title {
+          min-height: 150px; /* Set a minimum height for very small devices */
+          background-position: center; /* Keep focus on the center of the image */
+      }
+  }
+  
+  /* Optional overlay removal */
+  .page-title::before {
+      content: none; /* Remove any pseudo-element overlay */
+  }
+  
+
+</style>
+<section class="page-title">
+    <div class="auto-container">
+        <div class="title-outer">
+        </div>
+    </div>
 </section>
 
 
@@ -222,228 +269,61 @@ Mon - Sat 8:00 - 6:30, Sunday - CLOSED
 </section>
 
 <!-- service -->
-<section class="service-section pt-150 pb-40">
-<div class="auto-container">
-<div class="row mt-20">
-    <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-image">
-              <img src="../Assets/EPS.jpg" alt>
-            </div>
-            <div class="card-content">
-              <h2 class="card-title" >Evaporating cooling system</h2>
-              <p class="card-description">
-                Up Tech is providing the best evaporative air coolers that are providing a wide range of evaporating cooling systems in Hot places like Lahore, Rawalpindi. Evaporative cooling prices are quite affordable and with reliable quality.</p>
-            </div>
-          </div>
+<section class="service-section pb-md-70 pb-60">
+       
+    <div class="auto-container">
+        <div class="sec-title text-center mb-100">
+            <span class="sub-title">Some Of Our Speciality</span>
+            <h2>Product and Services</h2>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-image">
-              <img src="/images/resource/service1-2.png" alt>
-            </div>
-            <div class="card-content">
-              <h2 class="card-title">Desert cooling</h2>
-        <p class="card-description">
-            Up tech, technologies provide the greatest Air Conditioning administration to Palm Desert cooling and the encompassing zones. Our devoted group is here to serve you 24 hours per day 7 days per week with no additional end of the week or after hour charges.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-image">
-              <img src="/images/resource/service1-3.png" alt>
-            </div>
-            <div class="card-content">
-              <h2 class="card-title">HVAC</h2>
-              <p class="card-description">
-                Up tech, technologies provide the greatest Air Conditioning administration to Palm Desert cooling and the encompassing zones. Our devoted group is here to serve you 24 hours per day 7 days per week with no additional end of the week or after hour charges.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-</div>
-</div>
-</section>
-
-<!--Evaporating  cooling system -->
-<section class="product-section">
-    <h3 style="text-align: center;">Evaporating cooling system</h3>
-    <div class="image-container">
-        <img src="../Assets/EPS.jpg" alt="Image 1" class="responsive-image">
-        <img src="../Assets/EPS2.png" alt="Image 2" class="responsive-image">
-    </div>
-    <div class="table-container">
-        <table class="specs-table">
-            <thead>
-                <tr>
-                    <th>Specification</th>
-                    <th>Details</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Air Flow</td>
-                    <td>12000 cfm / 20,000 cmh</td>
-                </tr>
-                <tr>
-                    <td>Power</td>
-                    <td>1500 Watts</td>
-                </tr>
-                <tr>
-                    <td>Pressure</td>
-                    <td>220 Pa</td>
-                </tr>
-                <tr>
-                    <td>Fan Speed</td>
-                    <td>1-ph, multi speeds</td>
-                </tr>
-                <tr> 
-                    <td>Weight</td>
-                    <td>80 Kg</td>
-                </tr>
-                <tr>
-                    <td>Water Consumption</td>
-                    <td>8 - 12 Lt/hr</td>
-                </tr>
-                <tr>
-                    <td>Dimensions (LxWxH) mm</td>
-                    <td>1016 x 1016 x 1143 mm</td>
-                </tr>
-                <tr>
-                    <td>Controller</td>
-                    <td>LCD</td>
-                </tr>
-                <tr>
-                    <td>Effective Area</td>
-                    <td>1300 - 1600 sq.ft.</td>
-                </tr>
-            </tbody>
-        </table>
-        <img src="../Assets/EPS3.jpg" alt="Secondary Image" class="sec-pic">
-    </div>
-
-    <div class="container-s">
-        <h1>Cool Smith Air Cooling System</h1>
-        <p class="intro">Experience one of the healthiest ways to cool your home with fresh air replacement every second.</p>
-    
-        <ul class="features">
-            <li>🚫 No more A/C – an alternative to expensive air conditioning!</li>
-            <li>🌬️ <strong>Very Effective:</strong> Delivers powerful cooling for large areas.</li>
-            <li>💡 <strong>Low Cost & Energy Efficient:</strong> Save on both installation and electricity bills.</li>
-            <li>🔇 <strong>Low Noise:</strong> Whisper-quiet operation for a peaceful environment.</li>
-            <li>🛠️ <strong>Easy Installation & Maintenance:</strong> Quick setup and minimal upkeep required.</li>
-        </ul>
-    
-        <div class="details">
-            <h2>Applications</h2>
-            <p>Suitable for: Home, Office, Factory, School, Mosque, Warehouse, Hospital, Restaurant, Power Plant, Shopping Center, Hotel, etc.</p>
-        </div>
-    
-        <div class="specs">
-            <h2>Specifications</h2>
-            <ul>
-                <li>Air Flow: <strong>12000 CFM / 20000 CMH</strong></li>
-                <li>Effective Area: <strong>1600 Sq Ft</strong></li>
-                <li>Power Consumption: <strong>1500 watts</strong></li>
-                <li>Control: <strong>Infrared Remote with LCD</strong></li>
-                <li>Modes: Cool Air, Fresh Air, and Exhaust</li>
-                <li>Multi-Speed Options and Auto Drain System</li>
-                <li>Save up to <strong>90% on Electricity Bills</strong></li>
-            </ul>
-        </div>
-    
-        <div class="cta">
-            <h3>The Modern and Best Energy-Saving Cooling System</h3>
-            <p>Efficient, affordable, and eco-friendly. Perfect for all environments.</p>
-        </div>
-    </div>
-
-    <div class="container" style="margin-top: 2%;">
-        <h1>Enhance Your Life with Uptech Engineering's Evaporative Cooling System!</h1>
-        <p>Adopt Uptech Engineering's evaporative cooling system and experience comfort and tranquility! Our advanced system effectively utilizes humidity in the air, increasing the sense of natural coolness in your room. This system keeps your environment pleasant and fresh while significantly reducing electricity bills.</p>
-        
-        <p>Our products are designed to provide excellent performance while consuming less energy compared to traditional air conditioners. The evaporative cooling system improves air purification, guaranteeing a healthy environment in your home or office. Furthermore, this system requires minimal maintenance, saving you time and costs.</p>
-        
-        <p>With Uptech Engineering's evaporative cooling system, you not only enjoy cooling but also make an environmentally friendly choice that reduces carbon footprints. If you seek freshness, comfort, and energy savings, choose Uptech Engineering's evaporative cooling.</p>
-        
-    </div>
-
-</section>
-
-<!-- Dessert Colling -->
-<div class="container-p">
-    <div class="section">
-      <h2>Desert Cooling </h2>
-      <p>Up tech technologies provide the greatest Air Conditioning services in Palm Desert and surrounding areas. Our team is available 24/7 with no extra weekend or after-hours charges. Since 2000, we have been the #1 provider for all your cooling, heating, indoor air quality, and water cooling needs. Our dedication to quality ensures your satisfaction with our services and affordable pricing. We aim to complete the job right the first time, and we proudly back our work with top warranties.</p>
-
-      <div class="images">
-        <img src="https://via.placeholder.com/350x200" alt="Cooling service image 1">
-        <img src="https://via.placeholder.com/350x200" alt="Cooling service image 2">
-        <img src="https://via.placeholder.com/350x200" alt="Cooling service image 3">
-      </div>
-
-      <p>Whether your AC system breaks down in your home or you need a new water heater installed, we are the company for you. Our Family Plans offer priority service, discounted maintenance, and the best protection for your home. We offer top indoor air quality supplies and cooling systems that help reduce energy costs and provide consistent cooling comfort. Join the Up tech family today and experience the difference in our high-quality service!</p>
-
-      <div class="specs">
-        <h3>Specifications</h3>
-        <ul>
-          <li>Air Flow: 12,000 cfm / 20,000 cmh</li>
-          <li>Power: 1500 Watts</li>
-          <li>Pressure: 220 Pa</li>
-          <li>Fan Speed: 1-ph, multi speeds</li>
-          <li>Weight: 80kg</li>
-          <li>Water Consumption: 8-12 Lt/hr</li>
-          <li>Effective Area: 1300-1600 sq.ft</li>
-        </ul>
-      </div>
+     
       
-    </div>
-  </div>
+          <div class="row">
+       
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="/Assets/product-picture/5.png" alt>
+                </div>
+                <div class="card-content">
+                  <h2 class="card-title">Evaporative Cooling System:</h2>
+                  <p class="card-description">Evaporative Cooling System: Our evaporative cooling systems offer an eco-friendly, cost-effective alternative to traditional air conditioning. These systems are ideal for dry climates, providing efficient cooling by harnessing the power of water evaporation to lower indoor temperatures</p>
+                  <button class="button-63" role="button"  ><a href="./EPS/EPS.html">Learn More</a></button>
 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="/Assets/product-picture/6.png" alt>
+                  </div>
+                  <div class="card-content">
+                    <h2 class="card-title">HVAC Systems</h2>
+                    <p class="card-description"> Up Tech Engineering designs and installs customized HVAC systems tailored to your specific needs. Our energy-efficient solutions ensure optimal indoor air quality, comfort, and climate control, whether for residential, commercial, or industrial spaces.</p>
+                    <button class="button-63" role="button"  ><a href="./HVAC/HVAC.html">Learn More</a></button>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="/Assets/product-picture/5.png" alt>
+                  </div>
+                  <div class="card-content">
+                    <h2 class="card-title">DESERT COOLING</h2>
+                    <p class="card-description">Desert Cooling
+                      Desert coolers are based on the simple principle that when unsaturated air comes in contact with water, the water evaporates.</p>
+                    <button class="button-63" role="button"  ><a href="./DESSERT COOLING/DessertCooling.html">Learn More</a></button>
   
- <!-- HVAC -->
-  <div class="container-HVAC">
-    <div class="section">
-      <h2>HVAC Services</h2>
-      <p>UP TECH ENGINEERING offers a wide range of services to keep your cooling systems up and running year-round. Some of the many services we provide include the following:</p>
-      
-      <div class="services-list">
-        <ul>
-          <li>Air Conditioner Repair</li>
-          <li>Air Conditioner Replacement</li>
-          <li>Indoor Air Quality (Filtration)</li>
-          <li>Ductless A/C Systems</li>
-          <li>SpacePak/Unico</li>
-          <li>Dehumidification</li>
-          <li>Programmable Thermostats</li>
-          <li>Zoning</li>
-          <li>Attic Fans</li>
-        </ul>
-      </div>
-      
-      <p>UP TECH ENGINEERING has the experienced team to take care of all your home cooling needs. We are experts in air conditioning with many years of industry experience. Our professionals offer maintenance, repair, and installation of all kinds of cooling systems. We are a family-owned, local team, dedicated to providing exceptional customer service and keeping your home comfortable during hot summer months. Our 24-hour emergency service ensures we are always ready to help when you need us most.</p>
-
-      <div class="images">
-        <img src="https://via.placeholder.com/600x400" alt="HVAC Service Image 1">
-        <img src="https://via.placeholder.com/600x400" alt="HVAC Service Image 2">
-      </div>
-<p class="hvac-text" >
-    <h4 style="text-align: center;">Up Tech Engineering - Your Trust and Comfort in HVAC Solutions!</h4>
-
-    Are you dreaming of the perfect temperature and a comfortable environment for your home or business? Up Tech Engineering provides you with a complete HVAC solution that is ready to meet all your needs. We are distinguished in the market due to our reliable work, modern technology, and unparalleled customer service.
-    
-    Whether you need AC installation, open or concealed AC piping, or maintenance and repair of your existing HVAC system, we excel in every task. We install AC of every brand and hold dealerships of well-known brands to provide you with quality products you can trust. We believe your home and office should be a comfortable and pleasant place, which is why we complete every project with responsibility and dedication.
-    
-    Up Tech Engineering is not only known for its services but also because of the skills and professionalism of our reliable and experienced technicians. Our team is not only experienced in HVAC systems but is also recognized in the community for their good reputation and responsible approach. Every technician undergoes extensive training before becoming part of our team to ensure they can provide you with the highest quality service.
-    
-    We provide our clients with the best HVAC solutions, including central heating systems, hot water heating systems, and towel warmers, which not only make your home and office comfortable but also ensure a safe environment. Our services aim to provide you with long-term benefits, and your comfort is our top priority.
-    
-    Join hands with UpTech Engineering and find the solution to your HVAC problems with our experienced team. We are always here to provide you with reliable, high-quality, and state-of-the-art services, ensuring that your home and business remain comfortable at all time</p>
+                  </div>
+                </div>
+              </div>
+          </div>
     </div>
-  </div>
+</section>
 
 
 <<footer class="main-footer">
@@ -468,10 +348,10 @@ Mon - Sat 8:00 - 6:30, Sunday - CLOSED
                             
                         </ul>
                         <ul class="social-icon-two">
-                          <li><a href="#"><span class="bi bi-twitter"></span></a></li>
-                          <li><a href="#"><span class="bi bi-facebook"></span></a></li>
-                          <li><a href="#"><span class="bi bi-pinterest"></span></a></li>
-                          <li><a href="#"><span class="bi bi-instagram"></span></a></li>
+                          <li><a href="https://www.facebook.com/uptechengineeringpk" target="_blank"><span class="bi bi-facebook"></span></a></li>
+    <li><a href="https://youtube.com/@uptechengineering145?si=6Ptv1ODNJwvlsuJ7" target="_blank"><span class="bi bi-youtube"></span></a></li>
+    <li><a href="https://www.instagram.com/up_tech.engineering/profilecard/?igsh=MXRreGNlaWZ5ZXBzYw== " target="_blank"><span class="bi bi-instagram"></span></a></li>
+  <li><a href="https://www.linkedin.com/in/up-tech-engineering-6409b7202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank"><span class="bi bi-linkedin"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -555,7 +435,7 @@ Mon - Sat 8:00 - 6:30, Sunday - CLOSED
 
 </div>
 
-<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="bi bi-caret-up-fill"></span></div>
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.js"></script>
