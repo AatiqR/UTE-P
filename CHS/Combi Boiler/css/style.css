@@ -32,18 +32,18 @@
 .text-content p {
   color: #666; /* Paragraph color */
   margin-bottom: 15px; /* Space below paragraphs */
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 .features-list {
-  max-width: 600px; /* Set a maximum width for the list */
+  max-width: 800px; /* Set a maximum width for the list */
   margin: 20px 0; /* Margin for spacing */
   list-style: none; /* Remove default list styles */
   padding: 0; /* Remove padding */
 }
 
 .features-list li {
-  padding: 10px; /* Add padding for comfort */
+  padding: 5px; /* Add padding for comfort */
   border-bottom: 1px solid #e0e0e0; /* Divider between items */
   transition: background-color 0.3s ease; /* Smooth transitions */
 }
@@ -58,7 +58,7 @@
   justify-content: flex-start; /* Align images to the start */
   align-items: center; /* Align images to the right */
   flex: 0 0 40%; /* Set width to 40% */
-  gap: 20px; /* Space between images */
+  gap: 10px; /* Space between images */
 }
 
 .image-container img {
