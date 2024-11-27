@@ -18924,7 +18924,7 @@ Sidebar
 /* Ensure the image fits perfectly within the card */
 @media (max-width: 576px) {
     .card {
-      max-width: 90%;
+      max-width: 70%;
       margin: 10px auto;
     }
   
@@ -18936,11 +18936,11 @@ Sidebar
     .card-image img {
       width: 100%; /* Ensure the image takes up the full width */
       height: auto; /* Maintain the aspect ratio */
-      object-fit: contain; /* Ensure the entire image fits without cropping */
+      object-fit:fill; /* Ensure the entire image fits without cropping */
     }
   
     .card {
-      height: auto; /* Let the card height adjust naturally */
+      height: 32rem; /* Let the card height adjust naturally */
     }
   }
   
