@@ -199,12 +199,58 @@ Mon - Sat 8:00 - 6:30, Sunday - CLOSED
 </header>
 
 <!-- hero Section -->
-<section class="page-title" style="background-image: url(images/background/page-title.jpg);">
-    <div class="cooling-system-outer">
-        <h2 class="cooling-system-title" >About</h2>
-   
-    </div>
+<style>
     
+    .page-title {
+      width: 100%; /* Full width of the viewport */
+      height: 727px; /* Default height for larger screens */
+      background-image: url('/Assets/HOME/about.png'); /* Reference the image */
+      background-size: cover; /* Cover the entire container */
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Prevent image repetition */
+      display: flex; /* Enable content alignment if necessary */
+      align-items: center; /* Center content vertically */
+      justify-content: center; /* Center content horizontally */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+      .page-title {
+          height: auto; /* Let height adjust dynamically */
+          min-height: 300px; /* Set a minimum height for smaller screens */
+          background-size: cover; /* Keep the image covering the container */
+          background-position: center; /* Center the image */
+      }
+  }
+  
+  @media (max-width: 576px) {
+      .page-title {
+          min-height: 220px; /* Set a minimum height for small devices */
+          background-size: cover; /* Maintain coverage */
+          background-position: center; /* Center the image */
+          padding: 0; /* Remove extra padding to avoid empty space */
+      }
+  }
+  
+  @media (max-width: 360px) {
+      .page-title {
+          min-height: 150px; /* Set a minimum height for very small devices */
+          background-position: center; /* Keep focus on the center of the image */
+      }
+  }
+  
+  /* Optional overlay removal */
+  .page-title::before {
+      content: none; /* Remove any pseudo-element overlay */
+  }
+  
+
+</style>
+<section class="page-title">
+    <div class="auto-container">
+        <div class="title-outer">
+        </div>
+    </div>
 </section>
 
 
