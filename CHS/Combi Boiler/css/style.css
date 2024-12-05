@@ -59,19 +59,32 @@ body{
 
 .image-container {
   display: flex; /* Use Flexbox for layout */
-  flex-direction: column; /* Align images vertically */
-  justify-content: flex-start; /* Align images to the start */
-  align-items: center; /* Align images to the right */
-  flex: 0 0 40%; /* Set width to 40% */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center-align items */
+  align-items: center; /* Align items to the start */
   gap: 10px; /* Space between images */
+  flex: 0 0 40%; /* Set width to 40% */
 }
 
-.image-container img {
-  width: 250px; /* Set the width to 250 pixels */
-  height: 350px; /* Set the height to 350 pixels */
-  object-fit: cover; /* Ensure images cover the area without distortion */
+.image-wrapper {
+  width: 300px; /* Set the fixed width for each image wrapper */
+  text-align: center; /* Center-align content */
+}
+
+.main-image {
+  width: 100%; /* Full width of the container */
+  height: 20rem; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure images cover the area without distortion */
   border-radius: 8px; /* Optional: add rounded corners */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow to images */
+  display: block; /* Ensure the image is a block element */
+}
+
+.companylogo {
+  width: 350px; /* Fixed width for the logo */
+  height: 50px; /* Fixed height for the logo */
+  margin-top: 10px; /* Space between the image and the logo */
+  object-fit: contain; /* Ensure proper scaling */
 }
 
 /* Responsive Styles */
@@ -92,10 +105,6 @@ body{
       width: 100%; /* Full width on smaller screens */
   }
 
-  .image-container img {
-      width: 200px; /* Adjust image width for smaller screens */
-      height: 250px; /* Adjust image height for smaller screens */
-  }
 }
 .boiler-info {
   font-family: Arial, sans-serif;
