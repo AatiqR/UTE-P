@@ -9665,7 +9665,12 @@
     var safeBlur = $.ui.safeBlur = function(element) {
 
         // Support: IE9 - 10 only
-        // If the <body> is blurred, IE will switch windows, see #9420
+        // If the <body>
+    <style>
+        * {
+             font-family: 'Poppins',sans-serif;
+        }
+    </style> is blurred, IE will switch windows, see #9420
         if (element && element.nodeName.toLowerCase() !== "body") {
             $(element).trigger("blur");
         }

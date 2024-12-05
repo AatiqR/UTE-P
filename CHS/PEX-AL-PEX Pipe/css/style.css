@@ -94,11 +94,9 @@
   text-align: center;
   letter-spacing: 1px;
   text-transform: capitalize;
-  color: #0d47a1; /* Base color for fallback */
-  background: linear-gradient(90deg, #0d47a1, #1976d2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  border-bottom: 3px solid #1976d2;
+  color: black; /* Base color for fallback */
+  
+  border-bottom: 3px solid black;
   padding-bottom: 0.5rem;
 }
 
@@ -132,7 +130,7 @@
 }
 
 .pipe-info-list li:before {
-  content: "✔️";
+  content: "⭐";
   position: absolute;
   left: 0;
   top: 0;

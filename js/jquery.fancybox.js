@@ -544,7 +544,12 @@
                 if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
 
                     // iOS has problems for input elements inside fixed containers,
-                    // the workaround is to apply `position: fixed` to `<body>` element,
+                    // the workaround is to apply `position: fixed` to `<body>
+    <style>
+        * {
+             font-family: 'Poppins',sans-serif;
+        }
+    </style>` element,
                     // unfortunately, this makes it lose the scrollbars and forces address bar to appear.
 
                     if (firstItem.type !== 'image') {

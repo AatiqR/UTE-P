@@ -977,7 +977,7 @@ h3 {
 }
 
 .services-list ul li::before {
-  content: "✔";
+  content: "⭐";
   color: #e74c3c;
   font-size: 18px;
   position: absolute;
