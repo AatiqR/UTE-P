@@ -85,8 +85,8 @@ body{
 
 .main-image {
   width: 100%; /* Full width of the container */
-  height: 20rem; /* Maintain aspect ratio */
-  object-fit: contain; /* Ensure images cover the area without distortion */
+  height: 24rem; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure images cover the area without distortion */
   border-radius: 8px; /* Optional: add rounded corners */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow to images */
   display: block; /* Ensure the image is a block element */
