@@ -63,6 +63,7 @@ body{
   padding: 5px; /* Add padding for comfort */
   border-bottom: 1px solid #e0e0e0; /* Divider between items */
   transition: background-color 0.3s ease; /* Smooth transitions */
+  font-family: 'Poppins',sans-serif;
 }
 
 .features-list li:last-child {
@@ -124,14 +125,16 @@ body{
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 8px;
-  max-width: 600px;
+  max-width: 90%;
   margin: 20px auto;
 }
 
 .boiler-info h3 {
   color: #333;
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Poppins',sans-serif;
 }
 
 .boiler-info h4 {
@@ -139,10 +142,14 @@ body{
   font-size: 20px;
   margin-top: 20px;
   margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Poppins',sans-serif;
+
 }
 
 .boiler-info p {
   color: #666;
   font-size: 16px;
   line-height: 1.6;
+  font-family: 'Poppins',sans-serif;
 }

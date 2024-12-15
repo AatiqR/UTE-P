@@ -408,3 +408,24 @@ body {
     width: 48%; /* Make each section take almost half of the width */
   }
 }
+
+
+.map-container {
+  max-width: 60%; /* Responsive width */
+  margin: 20px  auto; /* Center the map */
+  border: 2px solid #ccc; /* Add a border */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Ensure the corners are rounded */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  }
+  
+  .map-container iframe {
+  width: 100%; /* Make the iframe responsive */
+  height: 400px; /* Fixed height */
+  border: 2px solid black; /* Remove default border */
+  }
+  @media screen and (max-width: 768px) {
+  .map-container {
+  width: 100%;
+  }
+  }
