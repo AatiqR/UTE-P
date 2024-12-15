@@ -73,7 +73,7 @@ body {
 }
 
 .product-section h3 {
-  font-size: 2rem;
+  font-size: 3.3rem;
   color: #333;
   text-align: center;
   margin-bottom: 20px;
@@ -96,7 +96,7 @@ body {
 }
 
 .content-container h4 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-bottom: 10px;
 }
 
@@ -110,8 +110,6 @@ body {
 .responsive-image {
   max-width: 80%; /* Further reduce the width */
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Center smaller images within the container */
@@ -137,12 +135,17 @@ body {
 
 .specifications li {
   margin: 10px 0;
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.5;
 }
-
+.specifications li strong::before {
+  content: "★";
+}
 .specifications li strong {
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 1.4rem;
+
+
 }
 
 /* Applications Section */

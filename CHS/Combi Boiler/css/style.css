@@ -37,19 +37,26 @@ body{
   padding-right: 20px; /* Space between text and images */
 }
 
+
 .text-content h1 {
   color: #333; /* Heading color */
-  font-size: 42px; /* Font size */
+  font-size: 3rem; /* Font size */
   margin-bottom: 20px; /* Space below heading */
-  text-align: center; /* Align text to the left */
-  font-family: 'Poppins',sans-serif;
+  text-align: center; /* Align text to the center horizontally */
+  font-family: 'Poppins', sans-serif;
+  background-color: orange;
+  border-radius: 0.5rem;
 
 }
+
+
 
 .text-content p {
   color: #666; /* Paragraph color */
   margin-bottom: 15px; /* Space below paragraphs */
   font-size: 1.25rem;
+  font-family: 'Poppins',sans-serif;
+
 }
 
 .features-list {
@@ -57,15 +64,28 @@ body{
   margin: 20px 0; /* Margin for spacing */
   list-style: none; /* Remove default list styles */
   padding: 0; /* Remove padding */
+  font-family: 'Poppins',sans-serif;
+  color: #666; /* Paragraph color */
+
 }
 
 .features-list li {
   padding: 5px; /* Add padding for comfort */
   border-bottom: 1px solid #e0e0e0; /* Divider between items */
   transition: background-color 0.3s ease; /* Smooth transitions */
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins',sans-serif !important;
+  font-size: 1.25rem;
+  color: #666; /* Paragraph color */
+
 }
 
+.features-list strong::before {
+   content: "★"; 
+   color: black;
+}
+.features-list strong {
+font-weight: 700;
+}
 .features-list li:last-child {
   border-bottom: none; /* Remove border for the last item */
 }

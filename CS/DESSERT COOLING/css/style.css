@@ -177,9 +177,14 @@ body {
   font-weight: 500;
 }
 
+
+.specifications li strong::before{
+  content: "★";
+}
 .specifications li strong {
-  font-weight: 600;
+  font-weight: bolder;
   color: #333;
+  font-size: 1.3rem;
 }
 
 /* Applications Section */
