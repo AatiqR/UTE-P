@@ -87,6 +87,7 @@ body {
   background-color: #f4f6f9;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: ;
 }
 
 /* Text Content */
@@ -107,8 +108,8 @@ body {
   letter-spacing: 1px;
   text-transform: capitalize;
   color: black; /* Base color for fallback */
+  font-family: 'Poppins', sans-serif;
   
-  border-bottom: 3px solid black;
   padding-bottom: 0.5rem;
 }
 
@@ -118,11 +119,12 @@ body {
   font-size: 1.2rem;
   color: #666;
   margin-bottom: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 .pipe-info-details {
-  font-weight: 600;
-  color: #333;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 /* List Styling */
@@ -142,14 +144,20 @@ body {
 }
 
 .pipe-info-list li:before {
-  content: "⭐";
+  content: '\2605';
   position: absolute;
   left: 0;
   top: 0;
   color: #1a73e8;
   font-size: 1.3rem;
+  color: black;
 }
 
+
+.pipe-info-list strong{
+  font-weight: bolder;
+  
+}
 /* Image Container */
 .pipe-info-images {
   display: flex;
@@ -162,24 +170,16 @@ body {
 .pipe-info-card {
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-bottom: 1.5rem;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .pipe-info-card img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
   object-fit: contain;
 }
 
-.pipe-info-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-}
+
 
 /* Large Image Styling */
 .pipe-info-large-image {
@@ -193,7 +193,6 @@ body {
 .pipe-info-large-image img {
   width: 100%;
   height: auto;
-  border-radius: 12px;
   object-fit: cover;
 }
 
