@@ -143,6 +143,16 @@ body {
   position: absolute;
   left: 0;
 }
+.services-list li {
+  list-style: none;  /* Removes the default bullet points */
+}
+
+.services-list li::before {
+  content: '★';  /* Adds a star before each list item */
+  color: black;  /* Change the star color */
+  margin-right: 10px;  /* Adjust the space between the star and text */
+}
+
 
 .image-gallery {
   width: 30%; /* 40% width for the image gallery */
