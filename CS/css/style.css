@@ -1102,31 +1102,28 @@ h3 {
 
 .button-63 {
   align-items: center;
-  background: black;
+  background: black; /* Set the background color to black */
   border: 0;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 10px 20px -5px;
-  box-sizing: border-box;
-  color: white;
+  color: white; /* Set the text color to white */
   display: flex;
-  font-family: Phantomsans, sans-serif;
-  font-size: 12px; /* Default font size for small screens */
+  font-family: 'Poppins';
+  font-size: 16px;
   justify-content: center;
   max-width: 100%;
-  min-width: 80px; /* Default min-width */
-  padding: 6px 3px; /* Default padding */
+  min-width: 80px;
+  padding: 6px 3px;
   text-decoration: none;
   user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
   margin: auto;
 }
-
-.button-63:active,
 .button-63:hover {
-  outline: 0;
+  background: #333; /* Darken the background on hover */
+  box-shadow: rgba(151, 65, 252, 0.3) 0 10px 20px -5px; /* Slightly increase shadow on hover */
+  color: white;
 }
 
 /* Media Queries for responsiveness */
