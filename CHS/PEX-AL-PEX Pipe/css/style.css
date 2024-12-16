@@ -109,6 +109,8 @@ body {
   text-transform: capitalize;
   color: black; /* Base color for fallback */
   font-family: 'Poppins', sans-serif;
+  background-color: orange;
+  border-radius: 1rem;
   
   padding-bottom: 0.5rem;
 }

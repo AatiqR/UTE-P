@@ -74,10 +74,12 @@ body {
 /* Section Titles */
 .section-title {
   text-align: center;
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 3rem;
+  font-weight: bold;
   margin-bottom: 1.5rem;
   color: #333;
+  background-color: orange;
+  border-radius: 1rem;
 }
 
 .section-subtitle {
@@ -142,20 +144,42 @@ body {
 /* Small Image Container */
 .small-image-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 1.5rem 0;
+  flex-wrap: wrap; /* Allows the images to wrap on smaller screens */
 }
 
 .small-responsive-image {
-  max-width: 60%;
+  max-width: 45%;
   height: auto;
   border-radius: 5px;
   transition: transform 0.3s ease;
+  margin-bottom: 1rem; /* Adds space below each image */
 }
 
-.small-responsive-image:hover {
-  transform: scale(1.05);
+/* Media query for small screens (e.g., smartphones) */
+@media (max-width: 768px) {
+  .small-responsive-image {
+    max-width: 90%; /* Makes images wider on smaller screens */
+    margin-bottom: 1rem; /* Keeps space below each image */
+  }
+
+  .small-image-container {
+    justify-content: center; /* Centers the images */
+  }
 }
+
+/* Media query for very small screens (e.g., portrait mobile devices) */
+@media (max-width: 480px) {
+  .small-responsive-image {
+    max-width: 100%; /* Makes images full width on very small screens */
+  }
+
+  .small-image-container {
+    padding: 0 1rem; /* Adds some padding on the sides for smaller screens */
+  }
+}
+
 
 /* Specifications Section */
 .specs-container {
