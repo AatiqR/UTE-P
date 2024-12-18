@@ -122,7 +122,9 @@ body {
 .hot-water-tank-details {
   color: #333;
 }
-
+.hot-water-tank-Feature{
+  
+}
 .hot-water-tank-description ul {
   list-style-type: none;
   padding-left: 0;
@@ -142,7 +144,10 @@ body {
   font-weight: bolder;
   font-size: 1.2rem;
 }
-
+.hot-water-tank-features li::before{
+  content: "★";
+  color: black;
+}
 
 .hot-water-tank-description li:before {
   content: "★";

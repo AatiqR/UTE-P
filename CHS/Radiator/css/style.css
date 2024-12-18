@@ -112,7 +112,7 @@ body {
 .small-radiator-image {
   width: 100%;
   height: auto;
-  max-height: 280px;
+  max-height: 380px;
 }
 
 .radiator-caption{
@@ -167,6 +167,11 @@ body {
   }
 }
 
+.heading{
+  font-family:'Poppins', sans-serif;
+  text-align: center;
+  
+}
 
 /* table */
 /* Table Styling */

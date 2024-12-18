@@ -106,7 +106,7 @@ font-weight: 700;
 
 .main-image {
   width: 100%; /* Full width of the container */
-  height: 24rem; /* Maintain aspect ratio */
+  height: 27rem; /* Maintain aspect ratio */
   object-fit: cover; /* Ensure images cover the area without distortion */
   display: block; /* Ensure the image is a block element */
 }
