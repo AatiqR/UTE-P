@@ -87,7 +87,8 @@ body {
   background-color: #f4f6f9;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  font-family: ;
+  font-family: 'Poppins', sans-serif !important;
+  
 }
 
 /* Text Content */
@@ -97,6 +98,8 @@ body {
   font-size: 1.15rem;
   line-height: 1.8;
   padding: 0 1rem;
+  font-family: 'Poppins', sans-serif !important;
+ 
   color: #555;
 }
 
@@ -113,6 +116,13 @@ body {
   border-radius: 1rem;
   
   padding-bottom: 0.5rem;
+}
+
+.pipe-info-second{
+  text-align: center;
+  font-family: 'Poppins', sans-serif !important;
+
+
 }
 
 
@@ -134,6 +144,8 @@ body {
   list-style: none;
   padding-left: 0;
   margin-left: 1rem;
+  font-family: 'Poppins', sans-serif !important;
+
 }
 
 .pipe-info-list li {
@@ -143,6 +155,8 @@ body {
   position: relative;
   padding-left: 25px;
   margin-bottom: 0.8rem;
+  font-family: 'Poppins', sans-serif !important;
+
 }
 
 .pipe-info-list li:before {
