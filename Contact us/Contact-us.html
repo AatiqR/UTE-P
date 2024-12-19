@@ -201,15 +201,53 @@ Mon - Sat 8:00 - 6:30, Sunday - CLOSED
 </div>
 </header>
 
-<!-- hero Section -->
 
-<section class="page-title" style="background-image: url(images/background/page-title.jpg);">
-    <div class="cooling-system-outer">
-        <h2 class="cooling-system-title" >Contact</h2>
-   
-    </div>
-    
-</section>
+<!-- Hero Section -->
+<style>
+ /* Page title container */
+.page-title {
+    width: 100%;      /* Full width of the viewport */
+    height: 800px;    /* Default height increased to 800px */
+    display: flex;     /* Enable content alignment */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    overflow: hidden; /* Prevent overflow if iframe exceeds bounds */
+}
+
+/* Google Maps iframe */
+.page-title iframe {
+    width: 100%;      /* Ensure iframe takes full width */
+    height: 100%;     /* Ensure iframe takes full height */
+    object-fit: cover; /* Make sure the map covers the area and doesn't stretch */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .page-title {
+        height: 600px; /* Adjust height for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .page-title {
+        height: 500px; /* Further adjust height for very small devices */
+    }
+}
+
+@media (max-width: 360px) {
+    .page-title {
+        height: 400px; /* Reduce height for extra small screens */
+    }
+}
+
+</style>
+  
+  
+  <!-- Google Map Embed iframe -->
+<iframe class="page-title" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.774066416022!2d73.12753367554083!3d33.61116617332623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfeb046bcf8111%3A0x231cce6acb5726b3!2sHaris%20Plaza!5e0!3m2!1sen!2s!4v1734593628785!5m2!1sen!2s"
+width="100%" 
+height="100%" style="border:0;" allowfullscreen="true" loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
 
