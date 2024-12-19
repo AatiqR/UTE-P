@@ -203,51 +203,39 @@ Mon - Sat 8:00 - 6:30, Sunday - CLOSED
 
 
 <!-- Hero Section -->
-<style>
- /* Page title container */
-.page-title {
-    width: 100%;      /* Full width of the viewport */
-    height: 800px;    /* Default height increased to 800px */
-    display: flex;     /* Enable content alignment */
-    align-items: center; /* Center content vertically */
-    justify-content: center; /* Center content horizontally */
-    overflow: hidden; /* Prevent overflow if iframe exceeds bounds */
+<style>    .Hero-Map {
+    width: 100%;
+    height: 565px;
+    overflow: hidden;
 }
 
-/* Google Maps iframe */
-.page-title iframe {
-    width: 100%;      /* Ensure iframe takes full width */
-    height: 100%;     /* Ensure iframe takes full height */
-    object-fit: cover; /* Make sure the map covers the area and doesn't stretch */
+@media (max-width: 1200px) {
+    .Hero-Map {
+        height: 500px;
+    }
 }
-
-/* Responsive adjustments */
 @media (max-width: 768px) {
-    .page-title {
-        height: 600px; /* Adjust height for smaller screens */
+    .Hero-Map{
+        height: 400px;
     }
 }
 
-@media (max-width: 576px) {
-    .page-title {
-        height: 500px; /* Further adjust height for very small devices */
+@media (max-width:480px) {
+    .Hero-Map {
+        height: 300px;
     }
+    
 }
 
-@media (max-width: 360px) {
-    .page-title {
-        height: 400px; /* Reduce height for extra small screens */
-    }
-}
 
 </style>
-  
-  
-  <!-- Google Map Embed iframe -->
-<iframe class="page-title" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.774066416022!2d73.12753367554083!3d33.61116617332623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfeb046bcf8111%3A0x231cce6acb5726b3!2sHaris%20Plaza!5e0!3m2!1sen!2s!4v1734593628785!5m2!1sen!2s"
-width="100%" 
-height="100%" style="border:0;" allowfullscreen="true" loading="lazy" 
-referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+<!-- Google Map Embed iframe -->
+<iframe class="Hero-Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1661.3748865680973!2d73.12824523868383!3d33.61179639333151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfeb798e9ed5cf%3A0x77ea732860c6e755!2sUP%20TECH%20ENGINEERING!5e0!3m2!1sen!2s!4v1734616791874!5m2!1sen!2s" 
+width="100%" height="100%" style="border:0;" 
+allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 
 
 
@@ -432,12 +420,13 @@ contactItems.forEach(item => {
 
 
 
-<div class="map-container">
+<!-- <div class="map-container">
     <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3322.748046972998!2d73.12704527554084!3d33.611841173326056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2s!4v1733838224868!5m2!1sen!2s" 
-    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div> -->
 
-
+ 
 <!-- FOOTER -->
 
 <footer class="main-footer">
@@ -493,15 +482,9 @@ contactItems.forEach(item => {
     <div class="footer-widget map-widget">
         <h4 class="widget-title">Location</h4>
         <div class="outer clearfix">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3322.748046972998!2d73.12704527554084!3d33.611841173326056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2s!4v1734172276736!5m2!1sen!2s" 
-                width="100%" 
-                height="250" 
-                style="border:0; border-radius: 10px;" 
-                allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1661.3748865680973!2d73.12824523868383!3d33.61179639333151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfeb798e9ed5cf%3A0x77ea732860c6e755!2sUP%20TECH%20ENGINEERING!5e0!3m2!1sen!2s!4v1734616791874!5m2!1sen!2s" 
+            width="100%" height="250" style="border:0;  border-radius: 1rem;"
+             allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 </div>
